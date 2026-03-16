@@ -74,7 +74,13 @@ function initThreeJSBackground() {
 // Initialize Typed.js for typing animation
 function initTypedJS() {
     const typed = new Typed('.typing', {
-        strings: ["UI/UX DESIGNER", "FRONTEND DEVELOPER", "RPA ENTHUSIAST", "PYTHON DEVELOPER", "PROMPT STRATEGIST"],
+        strings: [
+  "MERN STACK DEVELOPER",
+  "FRONTEND DEVELOPER",
+  "AI/ML LEARNER",
+  "PYTHON DEVELOPER",
+  "ROBOTICS ENTHUSIAST"
+],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
@@ -83,7 +89,13 @@ function initTypedJS() {
     });
 
     const typed2 = new Typed('.typing-2', {
-        strings: ["UI/UX DESIGNER", "FRONTEND DEVELOPER", "RPA ENTHUSIAST", "PYTHON DEVELOPER", "PROMPT STRATEGIST"],
+       strings: [
+  "MERN STACK DEVELOPER",
+  "FRONTEND DEVELOPER",
+  "AI/ML LEARNER",
+  "PYTHON DEVELOPER",
+  "ROBOTICS ENTHUSIAST"
+],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
@@ -305,7 +317,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setupMobileMenu();
     setupScrollToTop();
     animateSkillBars();
-    setupCountdownTimer();
     addServiceCardHoverEffects();
     setupScrollAnimations();
     setupFormSubmission();
